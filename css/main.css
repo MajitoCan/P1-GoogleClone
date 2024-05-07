@@ -1,0 +1,29 @@
+body{
+    margin:0; /*Que no haya margin y padding que da el navegador defauld para que 
+    nosotros lo manipulemos más adelante*/
+    padding:0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%; /*Para que header ocupe tod el ancho de la pantalla*/
+    height: 60px;
+}
+/*Busca una etiqueta nav que este dentro de la etiqueta header*/
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section{
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none; /*Para quitar lo puntos de la lista*/
+    justify-content: center;
+    align-items: center;
+}
+
+/*Iniciando margin*/
