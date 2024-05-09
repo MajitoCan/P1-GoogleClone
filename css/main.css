@@ -1,3 +1,4 @@
+/*6. */
 body{
     margin:0; /*Que no haya margin y padding que da el navegador defauld para que 
     nosotros lo manipulemos más adelante*/
@@ -5,18 +6,24 @@ body{
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+/*12. Eliminar subrayados*/
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+/*7. Estilos al header*/
 header{
     width: 100%; /*Para que header ocupe tod el ancho de la pantalla*/
     height: 60px;
 }
-/*Busca una etiqueta nav que este dentro de la etiqueta header*/
 
+/*8. Estilos al nav
+Busca una etiqueta nav que este dentro de la etiqueta header*/
 header nav{
     display: flex;
     justify-content: flex-end;
 }
-
+/*10. Editar una lista en HTML*/
 header nav .nav-right-section{
     width: 250px;
     height: auto;
@@ -26,4 +33,23 @@ header nav .nav-right-section{
     align-items: center;
 }
 
-/*Iniciando margin*/
+/*11. Iniciando margin*/
+nav .nav-right-section a{
+    margin-right: 10px;
+    color: #000000;
+}
+/*14. Aplicar los estilos*/
+nav .nav-right-section .menu-icon{
+    background-image: url("https://static.thenounproject.com/png/756729-200.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+
+/*17. Detalles en el estilo de la imagen de perfil*/
+nav .nav-right-section img{
+    border-radius: 50%;
+    margin-left: 10px;
+}
